@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "718206736632",
+    "firebase_url": "https://whodoilooklike-101d2.firebaseio.com",
+    "project_id": "whodoilooklike-101d2",
+    "storage_bucket": "whodoilooklike-101d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718206736632:android:944260d800d336b3",
+        "android_client_info": {
+          "package_name": "com.sound.aca.whodoilooklike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718206736632-r6lagv3m0895apkb2qsv84usrieevtql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sound.aca.whodoilooklike",
+            "certificate_hash": "ddd984500d71a2138b46decd7f229725773941de"
+          }
+        },
+        {
+          "client_id": "718206736632-26hc98ia2e45iead0o7u9339r3qls0u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2ZWj63M3Cml8gVZUKnxoJypFI5OMuPBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718206736632-26hc98ia2e45iead0o7u9339r3qls0u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

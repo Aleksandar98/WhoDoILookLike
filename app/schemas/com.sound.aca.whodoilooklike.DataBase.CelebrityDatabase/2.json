@@ -1,0 +1,64 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "7163f37327091d962e356eb1c6f3d800",
+    "entities": [
+      {
+        "tableName": "celebrities",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT, `noseRation` REAL NOT NULL, `ratio36` REAL NOT NULL, `ratio46` REAL NOT NULL, `fOrM` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "noseRation",
+            "columnName": "noseRation",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ratio36",
+            "columnName": "ratio36",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ratio46",
+            "columnName": "ratio46",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fOrM",
+            "columnName": "fOrM",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '7163f37327091d962e356eb1c6f3d800')"
+    ]
+  }
+}
